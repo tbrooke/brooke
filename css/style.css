@@ -727,13 +727,14 @@ a.linka:hover, a.linka.active {
         width: 100%;
         margin-bottom: 15px;
     }
+   
 
     .banner_body {
         min-height: auto !important;
     }
 
     .banner_text .consect {
-        font-size: 35px;
+        font-size: 25px;
         line-height: 40px;
     }
 
@@ -745,6 +746,7 @@ a.linka:hover, a.linka.active {
     }
 
     .links_body h2 {
+        font-size: 40px;
         margin: 5px 15px 15px 15px;
     }
 
