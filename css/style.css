@@ -570,6 +570,9 @@ a.linka:hover, a.linka.active {
         margin-bottom: 15px;
         padding: 20px;
     }
+    .banner_text h1 {
+        font-size: 40px;
+    }
 
     .banner_text .consect {
         font-size: 20px;
