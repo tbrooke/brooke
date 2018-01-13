@@ -6,10 +6,10 @@
     src: url('oswald-regular.eot') format('embedded-opentype'), url('oswald-regular.woff') format('woff'), url('oswald-regular.ttf') format('truetype'), url('oswald-regular.svg#OswaldRegular') format('svg');
 }
 
-@font-face {
-    font-family: 'junction';
-    src: url('./junction/Junction-regular.otf')
-    }
+/* @font-face { */
+/*     font-family: 'junction'; */
+/*     src: url('./junction/Junction-regular.otf') */
+/*     } */
 
     .banner_arrow {
         left: 0;
