@@ -7,6 +7,18 @@
 }
 
 @font-face {
+    font-family: 'junctionregular';
+    src: url('Junction-regular-webfont.eot');
+    src: url('Junction-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('Junction-regular-webfont.woff2') format('woff2'),
+    url('Junction-regular-webfont.woff') format('woff'),
+    url('Junction-regular-webfont.ttf') format('truetype'),
+    url('Junction-regular-webfont.svg#junctionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'GudeaRegular';
     src: url('gudea-regular.eot');
     src: url('gudea-regular.eot') format('embedded-opentype'), url('gudea-regular.woff') format('woff'), url('gudea-regular.ttf') format('truetype'), url('gudea-regular.svg#GudeaRegular') format('svg');
@@ -34,7 +46,7 @@ body {
     margin: 0px;
     padding: 0px;
     background: #fff;
-    font-family: 'GudeaRegular' !important;;
+    font-family: 'junctionregular' !important;;
 }
 
 .header_body {
@@ -52,7 +64,7 @@ body {
 }
 
 .navigation {
-    margin: 50px 0px 0px 0px;
+    margin: 30px 0px 0px 10px;
 }
 
 .navigation ul {
@@ -66,11 +78,11 @@ body {
 
 .navigation ul li a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
     color: #133b92;
-    padding: 5px 10px;
+    padding: 5px 12px;
     text-transform: uppercase;
-    font-family: 'OswaldRegular';
+    font-family: 'junctionregular';
     display: block;
 }
 
@@ -79,28 +91,6 @@ body {
     color: #000c2f;
 }
 
-.search {
-    margin: 51px 0px 0px 0px !important;
-}
-
-.search .stext {
-    float: left;
-    position: relative;
-    width: 80%;
-    margin-right: 10px;
-    border: none !important;
-    background: #e1e1e1 !important;
-    box-shadow: none !important;
-    border-radius: 0px !important;
-    padding: 2px 5px !important;
-}
-
-.search .sbutton {
-    display: block;
-    padding-top: 2px;
-    background: none;
-    border: none;
-}
 
 .banner_body {
     position: relative;
@@ -119,26 +109,32 @@ body {
     width: 400px;
     position: relative;
     left: 50%;
-    margin-left: -460px;
-    margin-top: 53px;
+    margin-left: -490px;
+    margin-top: 65px;
 }
 
 .banner_text h2 {
     color: #133b92;
-    font-size: 60px;
-    margin: 0px 0px 10px 0px;
-    text-transform: uppercase;
-    font-family: 'GudeaRegular';
+    font-size: 94px;
+    margin: -8px 0px 10px 0px;
+    font-family: 'junctionregular';
     font-weight: normal;
 }
 
 .banner_text .consect {
     color: #010101;
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 26px;
+    line-height: 40px;
     text-transform: uppercase;
-    margin: 30px 0px 10px 0px;
-    font-family: 'OswaldRegular';
+    margin: 38px 0px 20px 0px;
+    font-family: 'junctionregular';
+}
+.cont {
+    color: #133b92;
+    font-family: 'junctionregular';
+    font-size: 26px;
+    margin-left: 35px;
+    margin-top: 35px;
 }
 
 .banner_text .text {
