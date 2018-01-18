@@ -45,6 +45,40 @@ body {
     display: block;
 }
 
+
+#ccb {
+    color: #010c25;
+    padding: 0px 15px 0px 0px;
+    text-shadow: 0px 0px;
+}
+
+#ccb img {
+    margin-left: 0;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#about img {
+    margin-left: 0;
+    border: none;
+}
+
+#tmb {
+    color: #010c25;
+    padding: 10px 25px 0px 0px;
+    text-shadow: 0px 0px;
+}
+
+#tmb img {
+    margin-left: 10;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+
+}
+
 li .log {
     text-transform: none;
     font-weight: lighter;
@@ -55,6 +89,17 @@ li .log {
     color: #000c2f;
 }
 
+.content {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.content h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+}
 
 .banner_body {
     position: relative;
@@ -156,7 +201,7 @@ li .log {
     height: 93px;
     margin-bottom: 10px;
     margin-left: 10px !important;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     line-height: 25px;
     text-shadow: 1px 2px #020512;
@@ -201,8 +246,9 @@ a.linka:hover, a.linka.active {
 
 .content img {
     display: block;
-    border: 3px solid #3866c9;
+    border: none;
     margin-left: 10px;
+    margin-right: 20px;
 }
 
 .item-page {

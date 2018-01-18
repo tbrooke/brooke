@@ -79,16 +79,28 @@ seemed to care about my case.</div>
                 	<div class="free_text">
                         <p><strong>Give us a call:</strong></p>
                         <span class="phone_nu">(704) 857-6121</span>
-                    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non mi elit, nec molestie augue. Pellentesque non tincidunt enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    	  <p>You can also contact us by using our contact form or email our Attorney directly:</p>
+                        <p>
+                            <a href="mailto:tmb@brookelaw.com?subject=From Brookelaw Web Site"> TMB@Brookelaw.com</a>
+                        </p>
+                        <p>
+                            <a href="mailto:ccb@brookelaw.com?subject=From Brookelaw Web Site"> CCB@Brookelaw.com</a>
+                        </p>
+                        <p>We are located at:</p>
+                        <p>101 S. Main St.,  China Grove, NC 28023</p>
                     </div>
                     </div>
                     <div class="span8">
                     <div class="form">
-                    	<form>
+                    	<form name="frontPage"  netlify-honeypot="bot-field" action="/thanks.html" netlify >
                         <fieldset>
                         	<input class="form_text" type="text" name="Name" value="Full name" onfocus="if (this.value=='Full name') this.value='';" onblur="if (this.value=='') this.value='Full name';" />
                             <input class="form_email" type="text" name="Email" value="Email Address" onfocus="if (this.value=='Email Address') this.value='';" onblur="if (this.value=='') this.value='Email Address';"  />
                             <input class="form_phone" type="text" name="Phone" value="Phone" onfocus="if (this.value=='Phone') this.value='';" onblur="if (this.value=='') this.value='Phone';"  />
+                             <p style="display:none;">
+                              <label>Don’t fill this out: <input name="bot-field"></label>
+                             </p>
+                             <p>Comments</p>
                             <textarea rows="4" cols="50" class="form_message" value="Message" onfocus="if (this.value=='Message') this.value='';" onblur="if (this.value=='') this.value='Message';" ></textarea>
                             <input class="form_button" type="submit" value="Contact Us" name="Submit" />
                          </fieldset>
