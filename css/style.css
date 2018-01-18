@@ -340,6 +340,8 @@ a.linka:hover, a.linka.active {
     font-style: italic;
     width: 95%;
     font-family: 'Lato';
+    font-size: 20px;
+    line-height: 20px;
     font-style: italic;
 
 }
