@@ -175,6 +175,39 @@ li .log {
     margin-left: 300px;
 }
 
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+    display: inline-block;
+    height: 25px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 20px;
+    color: #555555;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+
 .links_body {
     position: relative;
     width: 100%;
@@ -337,12 +370,11 @@ a.linka:hover, a.linka.active {
     border-radius: 0px !important;
     background: #fff !important;
     color: #000 !important;
-    font-style: italic;
+    font-style: normal;
     width: 95%;
-    font-family: 'Lato';
-    font-size: 20px;
-    line-height: 20px;
-    font-style: italic;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 25px;
 
 }
 
@@ -363,6 +395,14 @@ a.linka:hover, a.linka.active {
 
 .form_message {
     min-height: 86px;
+}
+
+.map {
+    margin-top: 40px;
+    margin-left: -60px;
+}
+.cform {
+    bottom-margin: 40px;
 }
 
 .footer_body {
