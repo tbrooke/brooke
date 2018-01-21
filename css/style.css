@@ -490,6 +490,7 @@ a.linka:hover, a.linka.active {
     color: #010c25;
     padding: 70px 0px 70px 40px;
     text-shadow: 0px 0px;
+    
 }
 
 .page_container .item-page h2 {
@@ -499,8 +500,8 @@ a.linka:hover, a.linka.active {
 }
 
 .page_container .item-page a {
-    text-decoration: underline;
-    color: #ce4f2d;
+    text-decoration: none;
+    color: blue;
     font-family: 'Lato';
     font-weight: bold;
 }
